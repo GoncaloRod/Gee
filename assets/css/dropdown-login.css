@@ -1,0 +1,37 @@
+#login-dp{
+    min-width: 270px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+#login-dp .btn {
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+
+    #login-dp label {
+        color: #000;
+    }
+}
